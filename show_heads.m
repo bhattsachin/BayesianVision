@@ -138,7 +138,7 @@ if ~isempty(boxes)
            fprintf(fid,'%u ',centroids(r,c));
            
            if md==2
-              fprintf(fid,'0 0>; ;\n'); 
+              fprintf(fid,'0 0>;;\n'); 
            end    
            
        end 

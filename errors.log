@@ -1,0 +1,16 @@
+Thu29 00:00:19,513 - [Impala.Persistency.FileSystem ] Unable to find ../training/raw/first_5.jpg in path 
+Thu29 00:00:19,515 - [Impala.Persistency.FileSystem ] Unable to find ../training/cd/first_5.jpg.txt in path 
+Thu29 00:00:19,732 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Thu29 00:00:19,732 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ../training/raw/first_5.jpg
+Thu29 00:00:19,751 - [Impala.Persistency.FileSystem ] Unable to find ../training/raw/fourth_13.jpg in path 
+Thu29 00:00:19,752 - [Impala.Persistency.FileSystem ] Unable to find ../training/cd/fourth_13.jpg.txt in path 
+Thu29 00:00:19,752 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Thu29 00:00:19,752 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ../training/raw/fourth_13.jpg
+Thu29 00:00:19,769 - [Impala.Persistency.FileSystem ] Unable to find ../training/raw/second_5.jpg in path 
+Thu29 00:00:19,769 - [Impala.Persistency.FileSystem ] Unable to find ../training/cd/second_5.jpg.txt in path 
+Thu29 00:00:19,769 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Thu29 00:00:19,769 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ../training/raw/second_5.jpg
+Thu29 00:00:19,788 - [Impala.Persistency.FileSystem ] Unable to find ../training/raw/third_4.jpg in path 
+Thu29 00:00:19,789 - [Impala.Persistency.FileSystem ] Unable to find ../training/cd/third_4.jpg.txt in path 
+Thu29 00:00:19,789 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Thu29 00:00:19,789 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ../training/raw/third_4.jpg

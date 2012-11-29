@@ -1,4 +1,4 @@
-function show_heads( im, boxes, out)
+function show_heads( im, boxes, out, cdout)
 
 
 %global humanCount;
@@ -70,7 +70,7 @@ if ~isempty(boxes)
 
        %c = 'w' + 1;
        
-        centroids(:,(i*3-2):3*i) = [(x2+x1)/2 (y2+y1)/2 zeros(rows,1)];
+        centroids(:,(i*3-2):3*i) = [(x2+x1)/2 (y2+y1)/2 ones(rows,1)];
       
        
        
@@ -78,7 +78,7 @@ if ~isempty(boxes)
 
         if i==1
         line([x1 x1 x2 x2 x1]', [y1 y2 y2 y1 y1]', 'color', 'r', 'linewidth', w);
-        text((floor(x1+x2)/2),(floor(y1+y2)/2), num2str(humans), 'FontSize',20); 
+        text((floor(x1+x2)/2),(floor(y1+y2)/2), num2str(humans), 'FontSize',20, 'color', 'b'); 
         
         end
         
@@ -118,13 +118,14 @@ if ~isempty(boxes)
   
   %write to file
   
-  fname = strcat(out,'.txt');
+  fname = cdout;
   fid = fopen(fname, 'w');
   [rw, col] = size(centroids);
   
   if fid ~= -1
     fprintf(fid,'%s\n','KOEN1');
     fprintf(fid,'24\n'); %this value depends on the descriptor chosen for CD
+    fprintf(fid,'%.0f\n',(rw*col)/3);
     
     for r = 1: rw
         
@@ -132,10 +133,10 @@ if ~isempty(boxes)
            
            md = mod(c+2,3);
            if md==0
-                fprintf(fid,'<Circle '); %start a new line
+                fprintf(fid,'<CIRCLE '); %start a new line
            end
            
-           fprintf(fid,'%u ',centroids(r,c));
+           fprintf(fid,'%.0f ',centroids(r,c));
            
            if md==2
               fprintf(fid,'0 0>;;\n'); 

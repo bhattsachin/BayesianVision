@@ -29,6 +29,6 @@ model.vis = @() visualizemodel(model, ...
 im = imread(fname);
 [ds, bs] = imgdetect(im, model, -0.5);
 top = nms(ds, 0.3);
-show_heads(im,reduceboxes(model, bs(top,:)), strcat('training/fine/', 'f_',name));
+show_heads(im,reduceboxes(model, bs(top,:)), strcat('training/fine/', 'f_',name), strcat('training/cd/',name,'.txt'));
 end
 

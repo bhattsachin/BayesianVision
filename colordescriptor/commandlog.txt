@@ -1,0 +1,12 @@
+./colorDescriptor ./human.jpg --detector harrislaplace --descriptor colormoments --output human-colormoments.txt
+./colorDescriptor ./human.jpg --detector harrislaplace --descriptor rgbsift --output human-rgbsift.txt
+./colorDescriptor ./human.jpg --detector harrislaplace --descriptor colormomentinvariants --output human-colormomentinvariants.txt
+./colorDescriptor ./human.jpg --detector harrislaplace --descriptor colormomentinvariants --output human-colormomentinvariants.txt
+./colorDescriptor ./detourlog.jpeg --detector harrislaplace --descriptor colormomentinvariants --output detourlog-colormomentinvariants.txt
+./colorDescriptor ./detourlog.jpeg --detector harrislaplace --descriptor colormomentinvariants --keepLimited 20 --output detourlog-colormomentinvariants-ltd.txt 
+./colorDescriptor ./human.jpg --loadRegions ./regionInput.txt  --descriptor colormomentinvariants --keepLimited 20 --output human-region.txt
+./colorDescriptor ./human.jpg --loadRegions ./regionInput.txt  --descriptor colormomentinvariants --keepLimited 20 --output human-region1.txt
+./colorDescriptor ./"first 5.jpg" --loadRegions ./"first 5.jpg.txt"  --descriptor colormomentinvariants  --output first5.txt 
+
+./colorDescriptor ../training/raw/"first 5.jpg" --loadRegions ../training/cd/"first 5.jpg.txt"  --descriptor colormomentinvariants  --output ../training/cd/scores/"first 5.txt"
+

@@ -1,18 +1,18 @@
 #!/bin/sh
 today=date
 echo "Today is $today"
+txt=".txt"
 
-
-for i in `ls -a ./training/cd/*.*`  
+for i in `ls -a ./training/tmp/*.*`  
 do  
 
 fname=`basename $i`
-imgname=`echo $fname | sed 's/.txt//g'`
+onlyname=`echo $fname | sed 's/JPG/txt/g'`
+imgname=`echo $fname`
 
 
-./colordescriptor/colorDescriptor ./training/raw/$imgname --loadRegions ./training/cd/$fname  --descriptor colormomentinvariants  --output ./training/cd/scores/$fname
+./colordescriptor/colorDescriptor ./training/tmp/$imgname --detector harrislaplace --descriptor csift --outputFormat binary --output ./training/cd/scores/$onlyname
 
-echo $fname
 echo $imgname
 
 

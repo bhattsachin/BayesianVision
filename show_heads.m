@@ -1,4 +1,4 @@
-function show_heads( im, boxes, out, cdout)
+function llc=show_heads( im, boxes, out, cdout,iname, llc)
 
 
 %global humanCount;
@@ -36,9 +36,12 @@ axis image;
 axis off;
 set(gcf, 'Color', 'white');
 
+[pathstr, flname, ext] = fileparts(iname);
+
 if ~isempty(boxes)
   rows = size(boxes,1);
-  humans = [1:rows]';
+  
+  humans = [(llc+1):(llc+rows)]';
   
   numfilters = floor(size(boxes, 2)/4);
   
@@ -70,15 +73,21 @@ if ~isempty(boxes)
 
        %c = 'w' + 1;
        
-        centroids(:,(i*3-2):3*i) = [(x2+x1)/2 (y2+y1)/2 ones(rows,1)];
+        centroids(:,(i*3-2):3*i) = [(x2+x1)/2 (y2+y1)/2 ones(rows,1)*10];
+        text(floor((x2+x1)/2), floor((y2+y1)/2), num2str(i), 'FontSize', 10, 'color', 'w');
       
        
+        for p = 1:floor(rows)
+            tp = im(y1(p):y2(p), x1(p):x2(p),:);
+            imwrite(tp,strcat('training/tmp/',flname,'_',num2str(p+llc),'_',num2str(i),ext));
+            
+        end
        
        
 
         if i==1
         line([x1 x1 x2 x2 x1]', [y1 y2 y2 y1 y1]', 'color', 'r', 'linewidth', w);
-        text((floor(x1+x2)/2),(floor(y1+y2)/2), num2str(humans), 'FontSize',20, 'color', 'b'); 
+        text((floor(x1+x2)/2),(floor(y1+y2)/2), num2str(humans), 'FontSize',30, 'color', 'g'); 
         
         end
         
@@ -116,6 +125,7 @@ if ~isempty(boxes)
     end
   end
   
+  llc = llc+rows;
   %write to file
   
   fname = cdout;

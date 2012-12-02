@@ -57,7 +57,7 @@ end
 
 function bowFeat =filesToSingleValueMatrix()
 %bow
-numWords = 10;
+numWords = 100;
 PATH = 'training/cd/scores';
 allfiles = dir(PATH);
 total = size(allfiles,1);

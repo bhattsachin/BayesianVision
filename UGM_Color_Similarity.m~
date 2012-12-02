@@ -1,0 +1,22 @@
+function similar= UGM_Color_Similarity(parts1, parts2)
+%UGM_COLOR_SIMILARITY Summary of this function goes here
+%   Detailed explanation goes here
+
+
+    similar = 0;
+    
+    
+    
+    
+
+end
+
+
+function inrange = isInsideThreshold(val1 , val2)
+
+    inrange = 0;
+    
+    
+
+end
+

@@ -1,4 +1,4 @@
-function optimalDecoding = ugm_model(guy)
+function [optimalDecoding nodeColorPot] = ugm_model_auto_edge(guy)
 %UGM_MODEL Summary of this function goes here
 %   Detailed explanation goes here
 
@@ -19,14 +19,24 @@ function optimalDecoding = ugm_model(guy)
     
     maxState = max(edgeStruct.nStates);
     edgePot = zeros(maxState,maxState,edgeStruct.nEdges);
+    
+    
+    nodeColorPot = defineColorPot(nNodes);
 
     for e = 1:edgeStruct.nEdges
-        edgePot(:,:,e) = defineEdgeWeight(); 
+         n1 = edgeStruct.edgeEnds(e,1);
+         n2 = edgeStruct.edgeEnds(e,2);
+         similar = UGM_Color_Similarity(nodeColorPot(n1,:,:),nodeColorPot(n2,:,:));
+         tmpPot = defineEdgeWeight();
+         
+         if similar==1
+            tmpPot = rot90(tmpPot); %reversed if they are dissimilar 
+         end
+        
+        edgePot(:,:,e) = tmpPot; 
     end
     
-    
-    
-    optimalDecoding = UGM_Decode_Exact_One(nodePot,edgePot,edgeStruct);
+    optimalDecoding = UGM_Decode_Exact(nodePot,edgePot,edgeStruct);
 
 
 end
@@ -47,7 +57,7 @@ end
 
 function nodePot = defineNodePot(nNodes, nStates)
     nodePot = ones(nNodes,nStates);
-    nodePot = nodePot*.5; %initializing to 0.5
+   %initializing to 1
 end
 
 function edgePot = defineEdgeWeight()
@@ -64,8 +74,7 @@ function colorPot = defineColorPot(nNodes)
     randomPartColor = randi([0,10],[9,1]);
     for i = 1:nNodes,
        randomPartColor = randi([0,10],[9,1]);
-       colorPot(i,:,:) =  r
-        
+       colorPot(i,:,:) =  randomPartColor;
     end
 
 end

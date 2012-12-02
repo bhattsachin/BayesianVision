@@ -1,0 +1,7 @@
+function [ output_args ] = study_colordescriptors( input_args )
+%STUDY_COLORDESCRIPTORS reads some naive cases and
+%   Detailed explanation goes here
+
+
+end
+

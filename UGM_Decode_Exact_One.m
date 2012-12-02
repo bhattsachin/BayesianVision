@@ -1,4 +1,4 @@
-function  [nodeLabels] = UGM_Decode_Exact_One(nodePot, edgePot, edgeStruct)
+function  [nodeLabels] = UGM_Decode_Exact_One(nodePot, edgePot, edgeStruct, colorPot)
 % INPUT
 % nodePot(node,class)
 % edgePot(class,class,edge) where e is referenced by V,E (must be the same
@@ -9,9 +9,9 @@ function  [nodeLabels] = UGM_Decode_Exact_One(nodePot, edgePot, edgeStruct)
 
 UGM_assert(prod(double(edgeStruct.nStates)) < 50000000,'Brute Force Exact Decoding not recommended for models with > 50 000 000 states');
     
-nodeLabels = Decode_Exact_One(nodePot,edgePot,edgeStruct);
+nodeLabels = Decode_Exact_One(nodePot,edgePot,edgeStruct, colorPot);
 
-function [nodeLabels] = Decode_Exact_One(nodePot,edgePot,edgeStruct)
+function [nodeLabels] = Decode_Exact_One(nodePot,edgePot,edgeStruct, colorPot)
 
 [nNodes,maxStates] = size(nodePot);
 nEdges = size(edgePot,3);
@@ -24,7 +24,7 @@ y = ones(nNodes,1);
 maxPot = -1;
 while 1
     
-    pot = UGM_ConfigurationPotential_One(y,nodePot,edgePot,edgeEnds);
+    pot = UGM_ConfigurationPotential_One(y,nodePot,edgePot,edgeEnds, colorPot);
 
     % Compare against max
     if pot > maxPot

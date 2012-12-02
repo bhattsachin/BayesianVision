@@ -1,4 +1,4 @@
-function optimalDecoding = ugm_model(guy)
+function [optimalDecoding nodeColorPot] = ugm_model(guy)
 %UGM_MODEL Summary of this function goes here
 %   Detailed explanation goes here
 
@@ -24,9 +24,9 @@ function optimalDecoding = ugm_model(guy)
         edgePot(:,:,e) = defineEdgeWeight(); 
     end
     
+    nodeColorPot = defineColorPot(nNodes);
     
-    
-    optimalDecoding = UGM_Decode_Exact_One(nodePot,edgePot,edgeStruct);
+    optimalDecoding = UGM_Decode_Exact_One(nodePot,edgePot,edgeStruct, nodeColorPot);
 
 
 end
@@ -47,7 +47,7 @@ end
 
 function nodePot = defineNodePot(nNodes, nStates)
     nodePot = ones(nNodes,nStates);
-    nodePot = nodePot*.5; %initializing to 0.5
+   %initializing to 1
 end
 
 function edgePot = defineEdgeWeight()
@@ -61,7 +61,11 @@ end
 
 function colorPot = defineColorPot(nNodes)
     colorPot = zeros(nNodes,9,1) %replace 1 with dimension with final color descriptor feature
-
+    randomPartColor = randi([0,10],[9,1]);
+    for i = 1:nNodes,
+       randomPartColor = randi([0,10],[9,1]);
+       colorPot(i,:,:) =  randomPartColor;
+    end
 
 end
 

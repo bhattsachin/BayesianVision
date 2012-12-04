@@ -18,7 +18,7 @@ imgname=`echo $fname`
 
 
 
-./colordescriptor/colorDescriptor ./training/tmp/$imgname --detector densesampling --descriptor opponentsift --outputFormat binary --output ./training/cd/scores/$onlyname
+./colordescriptor/colorDescriptor ./training/tmp/$imgname --detector harrislaplace --descriptor opponentsift --outputFormat binary --output ./training/cd/scores/$onlyname
 
 echo $imgname
 

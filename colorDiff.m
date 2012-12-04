@@ -57,7 +57,7 @@ end
 
 function bowFeat =filesToSingleValueMatrix()
 %bow
-numWords = 100;
+numWords = 50;
 PATH = 'training/cd/scores';
 allfiles = dir(PATH);
 total = size(allfiles,1);
@@ -66,8 +66,11 @@ everybody = zeros((total-2)/9,9,384); %here 384 is for csift
 featCount = 0;
 for i = 4:total,
    name = strcat(PATH, '/', allfiles(i).name);
-   [tmpNumRows, ~] = size(readBinaryDescriptors(strcat(PATH, '/', allfiles(i).name)));
-   featCount= featCount + tmpNumRows;
+   disp(name);
+   [tmpNumRows, col] = size(readBinaryDescriptors(strcat(PATH, '/', allfiles(i).name)));
+   if(col~=0)
+    featCount= featCount + tmpNumRows;
+   end
 end
 
 featCollection = zeros(featCount, 384);
@@ -83,9 +86,10 @@ for i = 4:total,
 %    part = flname(1,len);
 %    person = flname(1,len-2);
 %    everybody(str2double(person),str2double(part),:)=imgScore;
-    
-    featCollection(dumbRowCount+1:dumbRowCount+row, :) = imgScore;
-    dumbRowCount = dumbRowCount+row;
+    if (col ~=1)
+        featCollection(dumbRowCount+1:dumbRowCount+row, :) = imgScore;
+        dumbRowCount = dumbRowCount+row;
+    end
     
 end
 

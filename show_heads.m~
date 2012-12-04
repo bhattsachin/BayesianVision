@@ -1,4 +1,4 @@
-function llc=show_heads( im, boxes, out, cdout, iname, llc)
+function llc=show_heads( im, boxes, out, cdout,iname, llc)
 
 
 %global humanCount;
@@ -15,6 +15,7 @@ if nargin > 2
   %cwidth = 1.25;
   cwidth = 1.4;
   wwidth = cwidth + 1.1;
+  w = 5;
   imsz = size(im);
   % resize so that the image is 300 pixels per inch
   % and 1.2 inches tall
@@ -35,12 +36,16 @@ end
 axis image;
 axis off;
 set(gcf, 'Color', 'white');
+[imgx, imgy] = size(im);
+
+[pathstr, flname, ext] = fileparts(iname);
 
 if ~isempty(boxes)
+   
   rows = size(boxes,1);
-  
+  colorBound = boundaryColor();
   humans = [(llc+1):(llc+rows)]';
-  llc = llc+rows;
+  
   numfilters = floor(size(boxes, 2)/4);
   
   %rows - number of people, columns = 3*number of filters (x,y,radius)
@@ -61,70 +66,47 @@ if ~isempty(boxes)
       x2(del) = [];
       y1(del) = [];
       y2(del) = [];
-      if i == 1
-        w = wwidth;
-      else
-        w = wwidth;
-      end
+     
       
-      
-
-       %c = 'w' + 1;
-       
         centroids(:,(i*3-2):3*i) = [(x2+x1)/2 (y2+y1)/2 ones(rows,1)*10];
         text(floor((x2+x1)/2), floor((y2+y1)/2), num2str(i), 'FontSize', 10, 'color', 'w');
       
+        
+        
+        
        
-        for p=1:rows,
-            tp = im(x1(p):x2(p), y1(p):y2(p),:);
-            imwrite(tp,strcat('/training/tmp/',iname,'_',p+llc,'
-            
+        for p = 1:floor(rows)
+            max_x = x2(p);
+            if(max_x>imgx)
+                max_x = imgx;
+            end
+            max_y = y2(p);
+            if(max_y>imgy)
+                max_y = imgy;
+            end
+            if((x1(p)<max_x) && (y1(p)<max_y) && max_y<)
+                tp = im(y1(p):max_y, x1(p):max_x,:);
+                imwrite(tp,strcat('training/tmp/',flname,'_',num2str(p+llc),'_',num2str(i),ext));
+            end
         end
        
-       
-
+        %drawing boundary
         if i==1
-        line([x1 x1 x2 x2 x1]', [y1 y2 y2 y1 y1]', 'color', 'r', 'linewidth', w);
-        text((floor(x1+x2)/2),(floor(y1+y2)/2), num2str(humans), 'FontSize',30, 'color', 'g'); 
-        
+            line([x1 x1 x2 x2 x1]', [y1 y2 y2 y1 y1]', 'color', 'r', 'linewidth', w);
+            text((floor(x1+x2)/2),(floor(y1+y2)/2), num2str(humans), 'FontSize',30, 'color', 'g'); 
+        else
+             line([x1 x1 x2 x2 x1]', [y1 y2 y2 y1 y1]', 'color', colorBound(i), 'linewidth', w);
         end
         
-         if i==4 
-        line([x1 x1 x2 x2 x1]', [y1 y2 y2 y1 y1]', 'color', 'b', 'linewidth', w);
-        %text((floor(x1+x2)/2),(floor(y1+y2)/2), num2str(klp), 'FontSize',20); 
-        
-         end
-        
-         
-         if i==7 
-        line([x1 x1 x2 x2 x1]', [y1 y2 y2 y1 y1]', 'color', 'b', 'linewidth', w);
-        %text((floor(x1+x2)/2),(floor(y1+y2)/2), num2str(klp), 'FontSize',20); 
-        
-         end
-        
-           if i==5 
-        line([x1 x1 x2 x2 x1]', [y1 y2 y2 y1 y1]', 'color', 'g', 'linewidth', w);
-        %text((floor(x1+x2)/2),(floor(y1+y2)/2), num2str(klp), 'FontSize',20); 
-        
-           end
-        
-             if i==3 
-        line([x1 x1 x2 x2 x1]', [y1 y2 y2 y1 y1]', 'color', 'w', 'linewidth', w);
-        %text((floor(x1+x2)/2),(floor(y1+y2)/2), num2str(klp), 'FontSize',20); 
-        
-             end
-          if i==9 
-        line([x1 x1 x2 x2 x1]', [y1 y2 y2 y1 y1]', 'color', 'w', 'linewidth', w);
-        %text((floor(x1+x2)/2),(floor(y1+y2)/2), num2str(klp), 'FontSize',20); 
-        
-        end
-      
    
     end
   end
   
+  llc = llc+rows;
   %write to file
   
+  %not required now
+  if 0
   fname = cdout;
   fid = fopen(fname, 'w');
   [rw, col] = size(centroids);
@@ -155,7 +137,7 @@ if ~isempty(boxes)
     
     fclose(fid);
   end
-  
+  end
   % draw the boxes with the detection window on top (reverse order)
 
 end
@@ -164,6 +146,17 @@ end
 if print
   % requires export_fig from http://www.mathworks.com/matlabcentral/fileexchange/23629-exportfig
   export_fig([out]);
+end
+
+end
+
+
+
+
+
+function colorBound = boundaryColor()
+    colorBound = ['r','b','g','b','w','g','b','y','w'];
+
 end
 
 

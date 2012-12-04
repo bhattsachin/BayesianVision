@@ -7,8 +7,6 @@ function similar= UGM_Color_Similarity(parts1, parts2)
     
     %checking for only one part - part 4
     similar = isInsideThreshold(parts1(4), parts2(4));
-    
-    
 
 end
 

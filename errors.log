@@ -236,3 +236,474 @@ Fri30 02:21:37,780 - [Impala.Core.Array.ReadFile ] Don't know how to read ./trai
 Fri30 02:21:37,786 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/
 Fri30 02:21:37,800 - [Impala.Core.Array.ReadFile ] Don't know how to read ./training/tmp/
 Fri30 02:21:37,800 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/
+Wed05 05:06:41,516 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./README.md in path 
+Wed05 05:06:41,536 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:06:41,536 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./README.md
+Wed05 05:06:41,551 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./UGM in path 
+Wed05 05:06:41,551 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:06:41,551 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./UGM
+Wed05 05:06:41,566 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./UGM_Color_Similarity.m in path 
+Wed05 05:06:41,567 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:06:41,567 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./UGM_Color_Similarity.m
+Wed05 05:06:41,580 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./UGM_ConfigurationPotential_One.m in path 
+Wed05 05:06:41,605 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:06:41,605 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./UGM_ConfigurationPotential_One.m
+Wed05 05:06:41,620 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./UGM_Decode_Exact_One.m in path 
+Wed05 05:06:41,621 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:06:41,621 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./UGM_Decode_Exact_One.m
+Wed05 05:06:41,634 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./Untitled.m in path 
+Wed05 05:06:41,635 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:06:41,635 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./Untitled.m
+Wed05 05:06:41,650 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./block_operation.m in path 
+Wed05 05:06:41,650 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:06:41,650 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./block_operation.m
+Wed05 05:06:41,665 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./colorDiff.m in path 
+Wed05 05:06:41,715 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:06:41,715 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./colorDiff.m
+Wed05 05:06:41,734 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./colordescriptor in path 
+Wed05 05:06:41,735 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:06:41,735 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./colordescriptor
+Wed05 05:06:41,752 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./cosine_similarity.m in path 
+Wed05 05:06:41,753 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:06:41,753 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./cosine_similarity.m
+Wed05 05:06:41,768 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./demo.m in path 
+Wed05 05:06:41,794 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:06:41,794 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./demo.m
+Wed05 05:06:41,811 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./demo.m~ in path 
+Wed05 05:06:41,814 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:06:41,814 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./demo.m~
+Wed05 05:06:41,828 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./dir_iterate.m in path 
+Wed05 05:06:41,828 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:06:41,828 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./dir_iterate.m
+Wed05 05:06:41,842 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./dir_iterate.m~ in path 
+Wed05 05:06:41,900 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:06:41,900 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./dir_iterate.m~
+Wed05 05:06:41,913 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./errors.log in path 
+Wed05 05:06:41,937 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:06:41,937 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./errors.log
+Wed05 05:06:41,956 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./export_fig in path 
+Wed05 05:06:41,956 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:06:41,956 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./export_fig
+Wed05 05:06:41,969 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./readBinaryDescriptors.m in path 
+Wed05 05:06:41,970 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:06:41,970 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./readBinaryDescriptors.m
+Wed05 05:06:41,984 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./rgbhist.m in path 
+Wed05 05:06:41,984 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:06:41,984 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./rgbhist.m
+Wed05 05:06:41,999 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./runcd.sh in path 
+Wed05 05:06:41,999 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:06:41,999 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./runcd.sh
+Wed05 05:06:42,012 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./runcdfolder.sh in path 
+Wed05 05:06:42,013 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:06:42,013 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./runcdfolder.sh
+Wed05 05:06:42,028 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./show_heads.m in path 
+Wed05 05:06:42,028 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:06:42,028 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./show_heads.m
+Wed05 05:06:42,044 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./show_heads.m~ in path 
+Wed05 05:06:42,044 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:06:42,044 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./show_heads.m~
+Wed05 05:06:42,058 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./split_into_folder.sh in path 
+Wed05 05:06:42,058 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:06:42,058 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./split_into_folder.sh
+Wed05 05:06:42,073 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./study_colordescriptors.m in path 
+Wed05 05:06:42,073 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:06:42,073 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./study_colordescriptors.m
+Wed05 05:06:42,087 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./test_codebook.m in path 
+Wed05 05:06:42,088 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:06:42,088 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./test_codebook.m
+Wed05 05:06:42,101 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./test_cosine_similarity.m in path 
+Wed05 05:06:42,102 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:06:42,102 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./test_cosine_similarity.m
+Wed05 05:06:42,116 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./test_descriptors.m in path 
+Wed05 05:06:42,117 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:06:42,117 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./test_descriptors.m
+Wed05 05:06:42,131 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./test_descriptors.m~ in path 
+Wed05 05:06:42,131 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:06:42,131 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./test_descriptors.m~
+Wed05 05:06:42,144 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./train_codebook.m in path 
+Wed05 05:06:42,145 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:06:42,145 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./train_codebook.m
+Wed05 05:06:42,159 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./training in path 
+Wed05 05:06:42,160 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:06:42,160 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./training
+Wed05 05:06:42,174 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./ugm_model.m in path 
+Wed05 05:06:42,178 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:06:42,179 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./ugm_model.m
+Wed05 05:06:42,192 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./ugm_model_auto_edge.m in path 
+Wed05 05:06:42,192 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:06:42,192 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./ugm_model_auto_edge.m
+Wed05 05:06:42,206 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./ugm_model_conditional.m in path 
+Wed05 05:06:42,207 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:06:42,207 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./ugm_model_conditional.m
+Wed05 05:06:42,221 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./util in path 
+Wed05 05:06:42,221 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:06:42,221 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./util
+Wed05 05:06:42,235 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./voc-release5 in path 
+Wed05 05:06:42,236 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:06:42,236 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./voc-release5
+Wed05 05:06:42,251 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./wtf.mat in path 
+Wed05 05:06:42,251 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:06:42,251 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./wtf.mat
+Wed05 05:06:42,268 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/../2a.m in path 
+Wed05 05:06:42,269 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:06:42,269 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/../2a.m
+Wed05 05:06:42,284 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/../assign3.m in path 
+Wed05 05:06:42,284 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:06:42,284 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/../assign3.m
+Wed05 05:06:42,298 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/../assignone_two_a.m in path 
+Wed05 05:06:42,299 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:06:42,299 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/../assignone_two_a.m
+Wed05 05:06:42,312 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/../assignone_two_b.m in path 
+Wed05 05:06:42,312 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:06:42,312 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/../assignone_two_b.m
+Wed05 05:06:42,327 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/../assigntwo_one.m in path 
+Wed05 05:06:42,328 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:06:42,328 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/../assigntwo_one.m
+Wed05 05:06:42,342 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/../bayesian in path 
+Wed05 05:06:42,342 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:06:42,343 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/../bayesian
+Wed05 05:06:42,356 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/../halfdome in path 
+Wed05 05:06:42,357 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:06:42,357 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/../halfdome
+Wed05 05:06:42,372 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/../ml-project in path 
+Wed05 05:06:42,373 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:06:42,373 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/../ml-project
+Wed05 05:06:42,386 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/../ml_class4.m in path 
+Wed05 05:06:42,387 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:06:42,387 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/../ml_class4.m
+Wed05 05:06:42,401 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/../mrf in path 
+Wed05 05:06:42,401 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:06:42,401 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/../mrf
+Wed05 05:06:42,416 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/../parallel in path 
+Wed05 05:06:42,416 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:06:42,417 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/../parallel
+Wed05 05:06:42,430 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/../persondetector in path 
+Wed05 05:06:42,431 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:06:42,431 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/../persondetector
+Wed05 05:06:42,444 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/../training in path 
+Wed05 05:06:42,445 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:06:42,445 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/../training
+Wed05 05:10:20,897 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./README.md in path 
+Wed05 05:10:20,898 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:10:20,898 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./README.md
+Wed05 05:10:20,917 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./UGM_Color_Similarity.m in path 
+Wed05 05:10:20,918 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:10:20,918 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./UGM_Color_Similarity.m
+Wed05 05:10:20,934 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./UGM_ConfigurationPotential_One.m in path 
+Wed05 05:10:20,935 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:10:20,935 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./UGM_ConfigurationPotential_One.m
+Wed05 05:10:20,950 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./UGM_Decode_Exact_One.m in path 
+Wed05 05:10:20,951 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:10:20,951 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./UGM_Decode_Exact_One.m
+Wed05 05:10:20,970 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./Untitled.m in path 
+Wed05 05:10:20,970 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:10:20,970 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./Untitled.m
+Wed05 05:10:20,985 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./block_operation.m in path 
+Wed05 05:10:20,986 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:10:20,986 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./block_operation.m
+Wed05 05:10:21,001 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./colorDiff.m in path 
+Wed05 05:10:21,002 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:10:21,002 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./colorDiff.m
+Wed05 05:10:21,017 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./cosine_similarity.m in path 
+Wed05 05:10:21,018 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:10:21,018 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./cosine_similarity.m
+Wed05 05:10:21,033 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./demo.m in path 
+Wed05 05:10:21,034 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:10:21,034 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./demo.m
+Wed05 05:10:21,051 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./demo.m~ in path 
+Wed05 05:10:21,051 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:10:21,051 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./demo.m~
+Wed05 05:10:21,067 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./dir_iterate.m in path 
+Wed05 05:10:21,068 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:10:21,068 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./dir_iterate.m
+Wed05 05:10:21,083 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./dir_iterate.m~ in path 
+Wed05 05:10:21,084 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:10:21,084 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./dir_iterate.m~
+Wed05 05:10:21,099 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./errors.log in path 
+Wed05 05:10:21,099 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:10:21,099 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./errors.log
+Wed05 05:10:21,115 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./readBinaryDescriptors.m in path 
+Wed05 05:10:21,115 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:10:21,115 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./readBinaryDescriptors.m
+Wed05 05:10:21,132 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./rgbhist.m in path 
+Wed05 05:10:21,132 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:10:21,133 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./rgbhist.m
+Wed05 05:10:21,149 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./runcd.sh in path 
+Wed05 05:10:21,149 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:10:21,149 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./runcd.sh
+Wed05 05:10:21,164 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./runcdfolder.sh in path 
+Wed05 05:10:21,164 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:10:21,165 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./runcdfolder.sh
+Wed05 05:10:21,179 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./show_heads.m in path 
+Wed05 05:10:21,180 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:10:21,180 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./show_heads.m
+Wed05 05:10:21,195 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./show_heads.m~ in path 
+Wed05 05:10:21,196 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:10:21,196 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./show_heads.m~
+Wed05 05:10:21,211 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./split_into_folder.sh in path 
+Wed05 05:10:21,212 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:10:21,212 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./split_into_folder.sh
+Wed05 05:10:21,230 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./study_colordescriptors.m in path 
+Wed05 05:10:21,230 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:10:21,230 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./study_colordescriptors.m
+Wed05 05:10:21,246 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./test_codebook.m in path 
+Wed05 05:10:21,246 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:10:21,246 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./test_codebook.m
+Wed05 05:10:21,261 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./test_cosine_similarity.m in path 
+Wed05 05:10:21,262 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:10:21,262 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./test_cosine_similarity.m
+Wed05 05:10:21,278 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./test_descriptors.m in path 
+Wed05 05:10:21,279 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:10:21,279 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./test_descriptors.m
+Wed05 05:10:21,294 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./test_descriptors.m~ in path 
+Wed05 05:10:21,294 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:10:21,294 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./test_descriptors.m~
+Wed05 05:10:21,310 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./train_codebook.m in path 
+Wed05 05:10:21,310 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:10:21,310 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./train_codebook.m
+Wed05 05:10:21,326 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./ugm_model.m in path 
+Wed05 05:10:21,327 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:10:21,327 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./ugm_model.m
+Wed05 05:10:21,341 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./ugm_model_auto_edge.m in path 
+Wed05 05:10:21,342 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:10:21,342 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./ugm_model_auto_edge.m
+Wed05 05:10:21,358 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./ugm_model_conditional.m in path 
+Wed05 05:10:21,358 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:10:21,358 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./ugm_model_conditional.m
+Wed05 05:10:21,375 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./wtf.mat in path 
+Wed05 05:10:21,376 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:10:21,376 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./wtf.mat
+Wed05 05:10:21,395 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/../2a.m in path 
+Wed05 05:10:21,395 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:10:21,395 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/../2a.m
+Wed05 05:10:21,413 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/../assign3.m in path 
+Wed05 05:10:21,414 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:10:21,414 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/../assign3.m
+Wed05 05:10:21,429 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/../assignone_two_a.m in path 
+Wed05 05:10:21,430 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:10:21,430 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/../assignone_two_a.m
+Wed05 05:10:21,446 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/../assignone_two_b.m in path 
+Wed05 05:10:21,447 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:10:21,447 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/../assignone_two_b.m
+Wed05 05:10:21,463 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/../assigntwo_one.m in path 
+Wed05 05:10:21,463 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:10:21,463 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/../assigntwo_one.m
+Wed05 05:10:21,478 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/../ml_class4.m in path 
+Wed05 05:10:21,478 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:10:21,478 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/../ml_class4.m
+Wed05 05:11:53,615 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./README.md in path 
+Wed05 05:11:53,616 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:11:53,616 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./README.md
+Wed05 05:11:53,636 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./UGM_Color_Similarity.m in path 
+Wed05 05:11:53,636 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:11:53,636 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./UGM_Color_Similarity.m
+Wed05 05:11:53,652 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./UGM_ConfigurationPotential_One.m in path 
+Wed05 05:11:53,652 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:11:53,652 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./UGM_ConfigurationPotential_One.m
+Wed05 05:11:53,668 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./UGM_Decode_Exact_One.m in path 
+Wed05 05:11:53,669 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:11:53,669 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./UGM_Decode_Exact_One.m
+Wed05 05:11:53,688 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./Untitled.m in path 
+Wed05 05:11:53,689 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:11:53,689 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./Untitled.m
+Wed05 05:11:53,703 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./block_operation.m in path 
+Wed05 05:11:53,704 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:11:53,704 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./block_operation.m
+Wed05 05:11:53,719 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./colorDiff.m in path 
+Wed05 05:11:53,720 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:11:53,720 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./colorDiff.m
+Wed05 05:11:53,738 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./cosine_similarity.m in path 
+Wed05 05:11:53,739 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:11:53,739 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./cosine_similarity.m
+Wed05 05:11:53,755 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./demo.m in path 
+Wed05 05:11:53,755 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:11:53,755 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./demo.m
+Wed05 05:11:53,775 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./demo.m~ in path 
+Wed05 05:11:53,775 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:11:53,775 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./demo.m~
+Wed05 05:11:53,790 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./dir_iterate.m in path 
+Wed05 05:11:53,791 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:11:53,791 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./dir_iterate.m
+Wed05 05:11:53,807 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./dir_iterate.m~ in path 
+Wed05 05:11:53,808 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:11:53,808 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./dir_iterate.m~
+Wed05 05:11:53,824 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./errors.log in path 
+Wed05 05:11:53,824 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:11:53,824 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./errors.log
+Wed05 05:11:53,840 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./readBinaryDescriptors.m in path 
+Wed05 05:11:53,840 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:11:53,840 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./readBinaryDescriptors.m
+Wed05 05:11:53,857 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./rgbhist.m in path 
+Wed05 05:11:53,858 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:11:53,858 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./rgbhist.m
+Wed05 05:11:53,874 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./runcd.sh in path 
+Wed05 05:11:53,874 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:11:53,874 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./runcd.sh
+Wed05 05:11:53,890 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./runcdfolder.sh in path 
+Wed05 05:11:53,890 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:11:53,890 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./runcdfolder.sh
+Wed05 05:11:53,907 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./show_heads.m in path 
+Wed05 05:11:53,907 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:11:53,907 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./show_heads.m
+Wed05 05:11:53,922 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./show_heads.m~ in path 
+Wed05 05:11:53,922 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:11:53,922 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./show_heads.m~
+Wed05 05:11:53,940 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./split_into_folder.sh in path 
+Wed05 05:11:53,940 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:11:53,941 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./split_into_folder.sh
+Wed05 05:11:53,956 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./study_colordescriptors.m in path 
+Wed05 05:11:53,957 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:11:53,957 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./study_colordescriptors.m
+Wed05 05:11:53,974 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./test_codebook.m in path 
+Wed05 05:11:53,974 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:11:53,974 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./test_codebook.m
+Wed05 05:11:53,991 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./test_cosine_similarity.m in path 
+Wed05 05:11:53,991 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:11:53,991 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./test_cosine_similarity.m
+Wed05 05:11:54,006 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./test_descriptors.m in path 
+Wed05 05:11:54,007 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:11:54,007 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./test_descriptors.m
+Wed05 05:11:54,026 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./test_descriptors.m~ in path 
+Wed05 05:11:54,027 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:11:54,027 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./test_descriptors.m~
+Wed05 05:11:54,041 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./train_codebook.m in path 
+Wed05 05:11:54,041 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:11:54,041 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./train_codebook.m
+Wed05 05:11:54,058 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./ugm_model.m in path 
+Wed05 05:11:54,059 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:11:54,059 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./ugm_model.m
+Wed05 05:11:54,075 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./ugm_model_auto_edge.m in path 
+Wed05 05:11:54,076 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:11:54,076 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./ugm_model_auto_edge.m
+Wed05 05:11:54,092 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./ugm_model_conditional.m in path 
+Wed05 05:11:54,092 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:11:54,092 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./ugm_model_conditional.m
+Wed05 05:11:54,110 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./wtf.mat in path 
+Wed05 05:11:54,110 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:11:54,110 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./wtf.mat
+Wed05 05:11:54,131 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/../2a.m in path 
+Wed05 05:11:54,132 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:11:54,132 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/../2a.m
+Wed05 05:11:54,154 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/../assign3.m in path 
+Wed05 05:11:54,154 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:11:54,154 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/../assign3.m
+Wed05 05:11:54,169 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/../assignone_two_a.m in path 
+Wed05 05:11:54,169 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:11:54,170 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/../assignone_two_a.m
+Wed05 05:11:54,186 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/../assignone_two_b.m in path 
+Wed05 05:11:54,186 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:11:54,186 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/../assignone_two_b.m
+Wed05 05:11:54,202 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/../assigntwo_one.m in path 
+Wed05 05:11:54,203 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:11:54,203 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/../assigntwo_one.m
+Wed05 05:11:54,218 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/../ml_class4.m in path 
+Wed05 05:11:54,218 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:11:54,219 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/../ml_class4.m
+Wed05 05:13:32,589 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./README.md in path 
+Wed05 05:13:32,589 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:13:32,589 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./README.md
+Wed05 05:13:32,610 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./UGM_Color_Similarity.m in path 
+Wed05 05:13:32,610 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:13:32,610 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./UGM_Color_Similarity.m
+Wed05 05:13:32,626 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./UGM_ConfigurationPotential_One.m in path 
+Wed05 05:13:32,627 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:13:32,627 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./UGM_ConfigurationPotential_One.m
+Wed05 05:13:32,642 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./UGM_Decode_Exact_One.m in path 
+Wed05 05:13:32,643 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:13:32,643 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./UGM_Decode_Exact_One.m
+Wed05 05:13:32,659 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./Untitled.m in path 
+Wed05 05:13:32,659 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:13:32,660 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./Untitled.m
+Wed05 05:13:32,676 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./block_operation.m in path 
+Wed05 05:13:32,676 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:13:32,676 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./block_operation.m
+Wed05 05:13:32,693 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./colorDiff.m in path 
+Wed05 05:13:32,694 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:13:32,694 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./colorDiff.m
+Wed05 05:13:32,710 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./cosine_similarity.m in path 
+Wed05 05:13:32,711 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:13:32,711 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./cosine_similarity.m
+Wed05 05:13:32,726 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./demo.m in path 
+Wed05 05:13:32,727 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:13:32,727 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./demo.m
+Wed05 05:13:32,744 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./demo.m~ in path 
+Wed05 05:13:32,745 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:13:32,745 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./demo.m~
+Wed05 05:13:32,760 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./dir_iterate.m in path 
+Wed05 05:13:32,761 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:13:32,761 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./dir_iterate.m
+Wed05 05:13:32,778 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./dir_iterate.m~ in path 
+Wed05 05:13:32,778 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:13:32,778 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./dir_iterate.m~
+Wed05 05:13:32,794 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./errors.log in path 
+Wed05 05:13:32,794 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:13:32,794 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./errors.log
+Wed05 05:13:32,810 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./readBinaryDescriptors.m in path 
+Wed05 05:13:32,810 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:13:32,810 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./readBinaryDescriptors.m
+Wed05 05:13:32,828 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./rgbhist.m in path 
+Wed05 05:13:32,828 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:13:32,828 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./rgbhist.m
+Wed05 05:13:32,844 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./runcd.sh in path 
+Wed05 05:13:32,845 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:13:32,845 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./runcd.sh
+Wed05 05:13:32,862 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./runcdfolder.sh in path 
+Wed05 05:13:32,862 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:13:32,863 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./runcdfolder.sh
+Wed05 05:13:32,878 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./show_heads.m in path 
+Wed05 05:13:32,879 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:13:32,879 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./show_heads.m
+Wed05 05:13:32,895 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./show_heads.m~ in path 
+Wed05 05:13:32,895 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:13:32,895 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./show_heads.m~
+Wed05 05:13:32,912 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./split_into_folder.sh in path 
+Wed05 05:13:32,913 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:13:32,913 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./split_into_folder.sh
+Wed05 05:13:32,929 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./study_colordescriptors.m in path 
+Wed05 05:13:32,929 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:13:32,929 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./study_colordescriptors.m
+Wed05 05:13:32,944 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./test_codebook.m in path 
+Wed05 05:13:32,944 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:13:32,944 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./test_codebook.m
+Wed05 05:13:32,960 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./test_cosine_similarity.m in path 
+Wed05 05:13:32,960 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:13:32,960 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./test_cosine_similarity.m
+Wed05 05:13:32,974 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./test_descriptors.m in path 
+Wed05 05:13:32,975 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:13:32,975 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./test_descriptors.m
+Wed05 05:13:32,992 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./test_descriptors.m~ in path 
+Wed05 05:13:32,992 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:13:32,992 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./test_descriptors.m~
+Wed05 05:13:33,008 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./train_codebook.m in path 
+Wed05 05:13:33,009 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:13:33,009 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./train_codebook.m
+Wed05 05:13:33,025 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./ugm_model.m in path 
+Wed05 05:13:33,026 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:13:33,026 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./ugm_model.m
+Wed05 05:13:33,042 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./ugm_model_auto_edge.m in path 
+Wed05 05:13:33,042 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:13:33,043 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./ugm_model_auto_edge.m
+Wed05 05:13:33,058 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./ugm_model_conditional.m in path 
+Wed05 05:13:33,059 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:13:33,059 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./ugm_model_conditional.m
+Wed05 05:13:33,075 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/./wtf.mat in path 
+Wed05 05:13:33,076 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:13:33,076 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/./wtf.mat
+Wed05 05:13:33,097 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/../2a.m in path 
+Wed05 05:13:33,098 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:13:33,098 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/../2a.m
+Wed05 05:13:33,115 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/../assign3.m in path 
+Wed05 05:13:33,115 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:13:33,115 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/../assign3.m
+Wed05 05:13:33,130 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/../assignone_two_a.m in path 
+Wed05 05:13:33,130 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:13:33,130 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/../assignone_two_a.m
+Wed05 05:13:33,146 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/../assignone_two_b.m in path 
+Wed05 05:13:33,147 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:13:33,147 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/../assignone_two_b.m
+Wed05 05:13:33,166 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/../assigntwo_one.m in path 
+Wed05 05:13:33,167 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:13:33,167 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/../assigntwo_one.m
+Wed05 05:13:33,182 - [Impala.Persistency.FileSystem ] Unable to find ./training/tmp/../ml_class4.m in path 
+Wed05 05:13:33,182 - [Impala.Core.Array.ReadFile ] Don't know how to read 
+Wed05 05:13:33,182 - [Sandbox.koen.mainColorDescriptor ] [ERROR] Could not read input file: is it really a valid image? ./training/tmp/../ml_class4.m

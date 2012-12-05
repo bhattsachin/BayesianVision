@@ -68,11 +68,12 @@ function dir_iterate( directory )
     dirids = [allfiles.isdir];
     alldirs = allfiles(dirids);
     allnondir = allfiles(~dirids);
-    llc = 0;
+    
     
     for i=3:length(alldirs)
        subdir = alldirs(i).name;
        disp(subdir); 
+       llc = 0;
        subpath = strcat(PATH,subdir,'/');
        allfilesubdir = dir(subpath);
        %iterate each folder

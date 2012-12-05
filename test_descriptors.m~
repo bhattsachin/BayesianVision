@@ -3,13 +3,20 @@ function peopleset = test_descriptors()
 %   Detailed explanation goes here
 
     SCORE_PATH = 'training/cd/scores';
-
+    
+    list_of_files = fetchFileList(SCORE_PATH);
+    numOfFiles = size(list_of_files,1);
+    
+    for i=1:numOfFiles
+    
     %read all input patches and compute score
     peopleset = computeScore(SCORE_PATH);  
-
+    
+   
 
     %form a UGM graph and ask for decoding
-
+    
+    
 
 end
 
@@ -34,13 +41,17 @@ function peopleset = computeScore(SCORE_PATH)
     %running a dumb loop to get number of people
     for i=1:numOfFiles
        [~, fname, ~] = fileparts(list_of_files{i});
-       len = size(fname,2);
-       tmp=fname(1,len-2);
-       if tmp>numberOfPeople
-           numberOfPeople=str2double(tmp);
-       end
+       parsedStr = textscan(fname,'%s','Delimiter','_');
         
-    end    
+       len = size(parsedStr{1},1);
+       tmp = parsedStr{1}{len-1};
+       
+       tmp=str2double(tmp);
+       if tmp>numberOfPeople
+           numberOfPeople=tmp;
+       end 
+        
+    end     
     
     
     peopleset = zeros(numberOfPeople,9,250); %here 250 is word size
@@ -49,13 +60,8 @@ function peopleset = computeScore(SCORE_PATH)
         parsedStr = textscan(fname,'%s','Delimiter','_');
         
         len = size(parsedStr{1},1);
-        part = fname(1,len);
-        person = fname(1,len-2);
-        disp('something...');
-        str = sprintf('part:%s',part);
-        disp(str);
-        str = sprintf('person:%s',person);
-        disp(str);
+        part = parsedStr{1}{len};
+        person = parsedStr{1}{len-1};
         peopleset(str2double(person),str2double(part),:)=test_codebook(strcat(SCORE_PATH,'/',fname,ext));
     end  
 

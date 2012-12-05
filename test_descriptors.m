@@ -3,13 +3,20 @@ function peopleset = test_descriptors()
 %   Detailed explanation goes here
 
     SCORE_PATH = 'training/cd/scores';
+    
+    list_of_files = fetchFileList(SCORE_PATH);
+    numOfFiles = size(list_of_files,1);
+    
+    for i=1:numOfFiles
+    
+        %read all input patches and compute score
+        peopleset = computeScore(strcat(SCORE_PATH,'/',list_of_files{i}));  
 
-    %read all input patches and compute score
-    peopleset = computeScore(SCORE_PATH);  
 
 
-    %form a UGM graph and ask for decoding
-
+        %form a UGM graph and ask for decoding
+    
+    end
 
 end
 
@@ -17,9 +24,9 @@ end
 function list_of_files = fetchFileList(SCORE_PATH)
     
     allfiles = dir(SCORE_PATH);
-    list_of_files = cell(size(allfiles,1)-3,1);
-    for i = 4:size(allfiles,1)
-        list_of_files{(i-3)}=allfiles(i).name;
+    list_of_files = cell(size(allfiles,1)-2,1);
+    for i = 3:size(allfiles,1)
+        list_of_files{(i-2)}=allfiles(i).name;
     end
 
 
@@ -47,7 +54,7 @@ function peopleset = computeScore(SCORE_PATH)
     end     
     
     
-    peopleset = zeros(numberOfPeople,9,250); %here 250 is word size
+    peopleset = zeros(numberOfPeople,9,500); %here 500 is word size
     for j=1:numOfFiles
         [~, fname, ext] = fileparts(list_of_files{j});
         parsedStr = textscan(fname,'%s','Delimiter','_');

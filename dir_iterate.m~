@@ -1,0 +1,21 @@
+function dir_iterate( directory )
+%DIR_ITERATE iterate a given directory
+    PATH = directory;
+    allfiles = dir(directory);
+    dirids = [allfiles.isdir];
+    alldirs = allfiles(dirids);
+    allnondir = allfiles(~dirids);
+    
+    for i=1:length(alldirs)
+       disp(alldirs(i).name); 
+       
+       %iterate each folder
+       
+       
+        
+    end
+    
+    
+
+end
+

@@ -40,24 +40,15 @@ model.vis = @() visualizemodel(model, ...
 im = imread(fname);
 [ds, bs] = imgdetect(im, model, -0.1);
 top = nms(ds, 0.1);
-llc = show_heads(im,reduceboxes(model, bs(top,:)), strcat('training/fine/', 'f_',name), strcat('training/cd/',name,'.txt'),name, llc,fname);
+llc = show_heads(im,reduceboxes(model, bs(top,:)), strcat('training/fine/', 'f_',name), strcat('training/cd/',name,'.txt'),name, llc);
 end
 
 function deleteTmpFolder()
 
 PATH = 'training/tmp';
 allfiles = dir(PATH);
-dirids = [allfiles.isdir];
-alldirs = allfiles(dirids);
-allnondir = allfiles(~dirids);
-
-
-    for j=1:size(allnondir,1)
-       delete(strcat(PATH,'/',allnondir(j).name));
-    end
-    
-    for j=3:size(alldirs,1)
-        rmdir(strcat(PATH,'/',alldirs(j).name),'s');
+    for j=3:size(allfiles,1)
+       delete(strcat(PATH,allfiles(j).name));
     end
 end
 
@@ -73,7 +64,7 @@ function dir_iterate( directory )
     for i=3:length(alldirs)
        subdir = alldirs(i).name;
        disp(subdir); 
-       subpath = strcat(PATH,subdir,'/');
+       subpath = strcat(PATH,'/',subdir);
        allfilesubdir = dir(subpath);
        %iterate each folder
        for j = 3:size(allfilesubdir,1),

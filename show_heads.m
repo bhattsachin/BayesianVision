@@ -1,4 +1,4 @@
-function llc=show_heads( im, boxes, out, cdout,iname, llc)
+function llc=show_heads( im, boxes, out, cdout,iname, llc,fullname)
 
 
 %global humanCount;
@@ -38,7 +38,14 @@ axis off;
 set(gcf, 'Color', 'white');
 [imgx, imgy] = size(im);
 
-[pathstr, flname, ext] = fileparts(iname);
+[pathstr, flname, ext] = fileparts(fullname);
+
+parsedStr = textscan(pathstr,'%s','Delimiter','/');
+        
+len = size(parsedStr{1},1);
+newfolder = parsedStr{1}{len};
+parentfolder = 'training/tmp';
+mkdir(parentfolder,newfolder);
 
 if ~isempty(boxes)
    
@@ -86,7 +93,7 @@ if ~isempty(boxes)
             end
             if((x1(p)<max_x) && (y1(p)<max_y) && max_y<imgx)
                 tp = im(y1(p):max_y, x1(p):max_x,:);
-                imwrite(tp,strcat('training/tmp/',flname,'_',num2str(p+llc),'_',num2str(i),ext));
+                imwrite(tp,strcat(parentfolder,'/',newfolder,'/',flname,'_',num2str(p+llc),'_',num2str(i),ext));
             end
         end
        

@@ -40,6 +40,8 @@ set(gcf, 'Color', 'white');
 
 [pathstr, flname, ext] = fileparts(iname);
 
+
+
 if ~isempty(boxes)
    
   rows = size(boxes,1);
@@ -84,7 +86,7 @@ if ~isempty(boxes)
             if(max_y>imgy)
                 max_y = imgy;
             end
-            if((x1(p)<max_x) && (y1(p)<max_y) && max_y<)
+            if((x1(p)<max_x) && (y1(p)<max_y) && max_y<imgx)
                 tp = im(y1(p):max_y, x1(p):max_x,:);
                 imwrite(tp,strcat('training/tmp/',flname,'_',num2str(p+llc),'_',num2str(i),ext));
             end

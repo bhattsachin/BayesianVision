@@ -29,12 +29,32 @@ end
 function peopleset = computeScore(SCORE_PATH)
     list_of_files = fetchFileList(SCORE_PATH);
     numOfFiles = size(list_of_files,1);
-    peopleset = zeros(numOfFiles/9,9,50); %here 50 is word size
+    numberOfPeople = 0;
+    
+    %running a dumb loop to get number of people
+    for i=1:numOfFiles
+       [~, fname, ~] = fileparts(list_of_files{i});
+       parsedStr = textscan(fname,'%s','Delimiter','_');
+        
+       len = size(parsedStr{1},1);
+       tmp = parsedStr{1}{len-1};
+       
+       tmp=str2double(tmp);
+       if tmp>numberOfPeople
+           numberOfPeople=tmp;
+       end 
+        
+    end     
+    
+    
+    peopleset = zeros(numberOfPeople,9,250); %here 250 is word size
     for j=1:numOfFiles
         [~, fname, ext] = fileparts(list_of_files{j});
-        len = size(fname,2);
-        part = fname(1,len);
-        person = fname(1,len-2);
+        parsedStr = textscan(fname,'%s','Delimiter','_');
+        
+        len = size(parsedStr{1},1);
+        part = parsedStr{1}{len};
+        person = parsedStr{1}{len-1};
         peopleset(str2double(person),str2double(part),:)=test_codebook(strcat(SCORE_PATH,'/',fname,ext));
     end  
 

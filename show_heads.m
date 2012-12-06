@@ -1,4 +1,4 @@
-function llc=show_heads( im, boxes, out, cdout,iname, llc,fullname)
+function [llc imgcell fnamecell]=show_heads( im, boxes, out, cdout,iname, llc,fullname,imgcell, fnamecell)
 
 
 %global humanCount;
@@ -15,7 +15,7 @@ if nargin > 2
   %cwidth = 1.25;
   cwidth = 1.4;
   wwidth = cwidth + 1.1;
-  w = 5;
+  w = 2;
   imsz = size(im);
   % resize so that the image is 300 pixels per inch
   % and 1.2 inches tall
@@ -101,6 +101,20 @@ if ~isempty(boxes)
         if i==1
             line([x1 x1 x2 x2 x1]', [y1 y2 y2 y1 y1]', 'color', 'r', 'linewidth', w);
             text((floor(x1+x2)/2),(floor(y1+y2)/2), num2str(humans), 'FontSize',30, 'color', 'g'); 
+            nppl = size(humans,1);
+            for e=1:nppl
+                tcell = zeros(1,5);
+                tcell(1,1) = humans(e);
+                tcell(1,2) = x1(e);
+                tcell(1,3) = x2(e);
+                tcell(1,4) = y1(e);
+                tcell(1,5) = y2(e);
+
+                imgcell = [imgcell ; tcell];
+                tfnamecell = cell(1,1);
+                tfnamecell{1,1} = fullname;
+                fnamecell = [fnamecell tfnamecell];
+            end
         else
              line([x1 x1 x2 x2 x1]', [y1 y2 y2 y1 y1]', 'color', colorBound(i), 'linewidth', w);
         end

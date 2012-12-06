@@ -4,19 +4,33 @@ function peopleset = test_descriptors()
 
     SCORE_PATH = 'training/cd/scores';
     
+    dude = 1; %this must come from input, we are searching for him
+    
     list_of_files = fetchFileList(SCORE_PATH);
     numOfFiles = size(list_of_files,1);
     
     for i=1:numOfFiles
     
-    %read all input patches and compute score
-    peopleset = computeScore(SCORE_PATH);  
-    
-   
+        %read all input patches and compute score
+        peopleset = computeScore(strcat(SCORE_PATH,'/',list_of_files{i}));  
 
-    %form a UGM graph and ask for decoding
-    
-    
+
+        %form a UGM graph and ask for decoding
+        configuration = ugm_best_decoding(peopleset, dude);
+        
+        %sum all 1's
+        configrows = max(sum(configuration == 1, 2), 1);
+        %make the source value zero
+        configrows(dude, :)=0;
+        
+        %only the matched objects have 
+        configrows = configrows==max(configrows);
+        
+        
+        
+        
+        %draw_output(list_of_files{i},dude);
+    end
 
 end
 
@@ -24,9 +38,9 @@ end
 function list_of_files = fetchFileList(SCORE_PATH)
     
     allfiles = dir(SCORE_PATH);
-    list_of_files = cell(size(allfiles,1)-3,1);
-    for i = 4:size(allfiles,1)
-        list_of_files{(i-3)}=allfiles(i).name;
+    list_of_files = cell(size(allfiles,1)-2,1);
+    for i = 3:size(allfiles,1)
+        list_of_files{(i-2)}=allfiles(i).name;
     end
 
 
@@ -54,7 +68,7 @@ function peopleset = computeScore(SCORE_PATH)
     end     
     
     
-    peopleset = zeros(numberOfPeople,9,250); %here 250 is word size
+    peopleset = zeros(numberOfPeople,9,500); %here 500 is word size
     for j=1:numOfFiles
         [~, fname, ext] = fileparts(list_of_files{j});
         parsedStr = textscan(fname,'%s','Delimiter','_');

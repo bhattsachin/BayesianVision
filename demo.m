@@ -32,7 +32,7 @@ end
 
 
 %detect people in given image
-function llc=rawtofine (fname, name, llc)
+function [llc imgcell fnamecell] =rawtofine (fname, name, llc, tmpcell, tfnamecell)
 
 load('voc-release5/INRIA/inriaperson_final');
 model.vis = @() visualizemodel(model, ...
@@ -40,7 +40,7 @@ model.vis = @() visualizemodel(model, ...
 im = imread(fname);
 [ds, bs] = imgdetect(im, model, -0.1);
 top = nms(ds, 0.1);
-llc = show_heads(im,reduceboxes(model, bs(top,:)), strcat('training/fine/', 'f_',name), strcat('training/cd/',name,'.txt'),name, llc,fname);
+[llc imgcell fnamecell] = show_heads(im,reduceboxes(model, bs(top,:)), strcat('training/fine/', 'f_',name), strcat('training/cd/',name,'.txt'),name, llc,fname,tmpcell, tfnamecell);
 end
 
 function deleteTmpFolder()
@@ -74,18 +74,29 @@ function dir_iterate( directory )
        subdir = alldirs(i).name;
        disp(subdir); 
        llc = 0;
+       imgcell = [];
+       fnamecell = cell(0);
        subpath = strcat(PATH,subdir,'/');
        allfilesubdir = dir(subpath);
        %iterate each folder
        for j = 3:size(allfilesubdir,1),
             fname = allfilesubdir(j).name;
             tmp = llc;
+            tmpcell = imgcell;
+            tfnamecell = fnamecell;
             tf = strcmp(fname,'.DS_Store');
             if ~tf
                 disp(strcat(subpath,'/',fname));
-                llc = rawtofine([subpath fname], fname, tmp);
+                [llc imgcell fnamecell]= rawtofine([subpath fname], fname, tmp, tmpcell, tfnamecell);
             end
        end 
+       
+       %write imgcell to disk
+       if ~exist(fullfile('training','imgmap',subdir),'dir')
+          mkdir(fullfile('training','imgmap',subdir));
+       end
+       
+       save(fullfile('training','imgmap',subdir,'map.mat'),'imgcell','fnamecell');  
        
         
     end

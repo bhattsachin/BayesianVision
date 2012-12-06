@@ -1,8 +1,14 @@
-function peopleset = test_descriptors()
+function peopleset = test_descriptors(person)
 %TEST_DESCRIPTORS Summary of this function goes here
 %   Detailed explanation goes here
 
     SCORE_PATH = 'training/cd/scores';
+    
+    dude = person; %this must come from input, we are searching for him
+    
+    %delete previous output
+    rmdir(fullfile('training','output'),'s');
+    mkdir(fullfile('training','output'));
     
     list_of_files = fetchFileList(SCORE_PATH);
     numOfFiles = size(list_of_files,1);
@@ -13,9 +19,21 @@ function peopleset = test_descriptors()
         peopleset = computeScore(strcat(SCORE_PATH,'/',list_of_files{i}));  
 
 
-
         %form a UGM graph and ask for decoding
-    
+        configuration = ugm_best_decoding(peopleset, dude);
+        
+        %sum all 1's
+        configrows = max(sum(configuration == 1, 2), 1);
+        %make the source value zero
+        configrows(dude, :)=0;
+        
+        %only the matched objects have value 1
+        configrows = configrows==max(configrows);
+        
+        
+        
+        
+        draw_output(list_of_files{i},dude, configrows);
     end
 
 end

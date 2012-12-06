@@ -12,11 +12,5 @@ function scores = test_cosine_similarity_bybody_bypart( peopleset, targetNode1, 
 
 end
 
-function scores = is_cosine_similar(peopleset, targetNode1, targetNode2, part1, part2)
 
-    scores = 45;
-
-
-
-end
 

@@ -1,4 +1,4 @@
-function llc=show_heads( im, boxes, out, cdout,iname, llc)
+function [llc imgcell]=show_heads( im, boxes, out, cdout,iname, llc,fullname,imgcell, fnamecell)
 
 
 %global humanCount;
@@ -15,7 +15,7 @@ if nargin > 2
   %cwidth = 1.25;
   cwidth = 1.4;
   wwidth = cwidth + 1.1;
-  w = 5;
+  w = 2;
   imsz = size(im);
   % resize so that the image is 300 pixels per inch
   % and 1.2 inches tall
@@ -38,9 +38,14 @@ axis off;
 set(gcf, 'Color', 'white');
 [imgx, imgy] = size(im);
 
-[pathstr, flname, ext] = fileparts(iname);
+[pathstr, flname, ext] = fileparts(fullname);
 
-
+parsedStr = textscan(pathstr,'%s','Delimiter','/');
+        
+len = size(parsedStr{1},1);
+newfolder = parsedStr{1}{len};
+parentfolder = 'training/tmp';
+mkdir(parentfolder,newfolder);
 
 if ~isempty(boxes)
    
@@ -88,7 +93,7 @@ if ~isempty(boxes)
             end
             if((x1(p)<max_x) && (y1(p)<max_y) && max_y<imgx)
                 tp = im(y1(p):max_y, x1(p):max_x,:);
-                imwrite(tp,strcat('training/tmp/',flname,'_',num2str(p+llc),'_',num2str(i),ext));
+                imwrite(tp,strcat(parentfolder,'/',newfolder,'/',flname,'_',num2str(p+llc),'_',num2str(i),ext));
             end
         end
        
@@ -96,6 +101,14 @@ if ~isempty(boxes)
         if i==1
             line([x1 x1 x2 x2 x1]', [y1 y2 y2 y1 y1]', 'color', 'r', 'linewidth', w);
             text((floor(x1+x2)/2),(floor(y1+y2)/2), num2str(humans), 'FontSize',30, 'color', 'g'); 
+            tcell = zeros(1,5);
+            tcell(1,1) = humans;
+            tcell(1,2) = x1;
+            tcell(1,3) = x2;
+            tcell = y1;
+            tcell{1,5} = y2;
+            tcell{1,6} = fullname;
+            imgcell = [imgcell ; tcell]; 
         else
              line([x1 x1 x2 x2 x1]', [y1 y2 y2 y1 y1]', 'color', colorBound(i), 'linewidth', w);
         end
